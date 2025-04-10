@@ -57,7 +57,8 @@ jobs:
           echo "GOPROXY=direct" >> $GITHUB_ENV
 
       - name: Debug Authentication
-        run: echo "Using token: https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/"
+        run: |
+          echo "Using token: https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/"
 
       - name: Manually Clone Private Module (Fix Wrong URL Issue)
         run: |
