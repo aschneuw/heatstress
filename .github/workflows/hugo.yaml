@@ -51,25 +51,25 @@ jobs:
 
       - name: Authenticate Git for Private Modules
         run: |
-          git config --global url."https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/".insteadOf "https://github.com/"
+          git config --global url."https://x-access-token:${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com/".insteadOf "https://github.com/"
           echo "GOPRIVATE=github.com/aschneuw/hugo-cite" >> $GITHUB_ENV
           echo "GONOSUMDB=github.com/aschneuw/hugo-cite" >> $GITHUB_ENV
           echo "GOPROXY=direct" >> $GITHUB_ENV
 
       - name: Debug Authentication
         run: |
-          echo "Using token: https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/"
+          echo "Using token: https://x-access-token:${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com/"
 
       - name: Manually Clone Private Module (Fix Wrong URL Issue)
         run: |
-          git config --global url."https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/".insteadOf "https://github.com/"
+          git config --global url."https://x-access-token:${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com/".insteadOf "https://github.com/"
           mkdir -p $HOME/go/src/github.com/aschneuw
-          git clone https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/aschneuw/hugo-cite.git $HOME/go/src/github.com/aschneuw/hugo-cite
+          git clone https://x-access-token:${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com/aschneuw/hugo-cite.git $HOME/go/src/github.com/aschneuw/hugo-cite
           cd $HOME/go/src/github.com/aschneuw/hugo-cite && git checkout main
 
       - name: Authenticate Go for Private Modules
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
         run: |
           git config --global url."https://x-access-token:${GITHUB_TOKEN}@github.com/".insteadOf "https://github.com/"
           go env -w GOPRIVATE=github.com/aschneuw/hugo-cite
