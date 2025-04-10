@@ -56,6 +56,9 @@ jobs:
           echo "GONOSUMDB=github.com/aschneuw/hugo-cite" >> $GITHUB_ENV
           echo "GOPROXY=direct" >> $GITHUB_ENV
 
+      - name: Debug Authentication
+        run: echo "Using token: https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/"
+
       - name: Manually Clone Private Module (Fix Wrong URL Issue)
         run: |
           git config --global url."https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/".insteadOf "https://github.com/"
