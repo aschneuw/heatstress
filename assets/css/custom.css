@@ -1,0 +1,42 @@
+.figure-center {
+    margin: 0;
+    padding: 0;
+  }
+
+img[src$='#center'] {
+    margin:auto;
+  }
+
+.figure-no-margin {
+    margin: 0;
+    padding: 0;
+  }
+
+.table-with-caption table {
+  margin-bottom: 0 !important;
+}
+
+.table-with-caption figcaption {
+  margin-top: 0 !important;
+}
+
+.poster {
+  padding-top: 0 !important;
+}
+
+.poster .prose {
+  min-width: 1000px;
+}
+
+.download-button {
+  display: inline-block;
+  padding: 0.6em 1.2em;
+  background-color: lightgray;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.download-button:hover {
+  background-color: #005fa3;
+}
