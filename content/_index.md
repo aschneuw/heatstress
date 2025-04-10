@@ -6,9 +6,11 @@ share: false
 
 sections:
   - block: markdown
+    id: title-section
     content:
       title: Modelling the Effect of Heat Stress on the Performance of Swiss Dairy Cows
-      text: | 
+      text: |
+        <style>#title-section {padding: 2em;}</style>
         <div style="text-align: center;">
         <a href="/heatstress/report">
           <img src="/heatstress/uploads/logo.png" alt="Test" width="60%" style="display: block; margin: 0 auto;"/>
@@ -16,10 +18,11 @@ sections:
          A Big Data Statistical Analysis
         </div>
   - block: markdown
+    id: citation-section
     content:
       text: |
         #### 🔗 Citation
-        <style>code {display: block; width:100%; font-size: 0.8rem !important;}</style>
+        <style>code {display: block; width:100%; font-size: 0.8rem !important;} #citation-section {padding: 0;}</style>
         ```
         @mastersthesis{schneuwly2025,
           author      = {Schneuwly, Arno},
