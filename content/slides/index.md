@@ -4,6 +4,7 @@ toc: true
 reading_time: false
 pager: false
 share: false
+weight: 3
 
 slides:
   - Slide1.SVG

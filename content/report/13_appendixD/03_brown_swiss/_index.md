@@ -1,6 +1,6 @@
 ---
 title: "Brown Swiss"
-url: brownswiss
+url: brown-swiss
 weight: 3
 sidebar:
   open: false

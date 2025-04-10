@@ -4,6 +4,7 @@ title: Introduction
 hide: true
 type: "docs"
 layout: "redirect"
+weight: 2
 sidebar:
   open: true
 ---

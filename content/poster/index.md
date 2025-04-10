@@ -3,6 +3,7 @@ title: Poster
 url: poster
 type: landing
 share: false
+weight: 4
 sections:
   - block: markdown
     id: poster-section
