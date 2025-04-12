@@ -12,6 +12,7 @@ type: "docs"
 #### **Model Summary**
 
 <div>
+<div class="table-content">
 <table>
 <thead>
 <tr>
@@ -125,12 +126,14 @@ type: "docs"
 </tbody>
 </table>
 </div>
+</div>
 <figcaption style="text-align: left;">
 Table D.61: Jersey: Milk Yield - 1998-2023 - GAMM model summary without random effect terms.
 </figcaption>
 <br>
 
 <div>
+<div class="table-content">
 <table>
 <thead>
 <tr>
@@ -186,6 +189,7 @@ Table D.61: Jersey: Milk Yield - 1998-2023 - GAMM model summary without random e
 </tr>
 </tbody>
 </table>
+</div>
 </div>
 <figcaption style="text-align: left;">
 Table D.62: Jersey: Milk Yield - 1998-2023 - Mixed Model Summary - Smooth Terms and Random Effects.
@@ -270,6 +274,7 @@ Figure D.62: Jersey: Milk Yield - 1998 - 2023 - THI Effect and Lactation Curve
 ##### **Model Summary**
 
 <div>
+<div class="table-content">
 <table>
 <thead>
 <tr>
@@ -344,12 +349,14 @@ Figure D.62: Jersey: Milk Yield - 1998 - 2023 - THI Effect and Lactation Curve
 </tbody>
 </table>
 </div>
+</div>
 <figcaption style="text-align: left;">
 Table D.63: Jersey: Milk Yield - 1998-2010 - GAMM model summary without random effect terms.
 </figcaption>
 <br>
 
 <div>
+<div class="table-content">
 <table>
 <thead>
 <tr>
@@ -405,6 +412,7 @@ Table D.63: Jersey: Milk Yield - 1998-2010 - GAMM model summary without random e
 </tr>
 </tbody>
 </table>
+</div>
 </div>
 <figcaption style="text-align: left;">
 Table D.64: Jersey: Milk Yield - 1998-2010 - Mixed Model Summary - Smooth Terms and Random Effects.
@@ -487,6 +495,7 @@ Figure D.64: Jersey: Milk Yield - 1998 - 2010 - THI Effect and Lactation Curve
 ##### **Model Summary**
 
 <div>
+<div class="table-content">
 <table>
 <thead>
 <tr>
@@ -561,12 +570,14 @@ Figure D.64: Jersey: Milk Yield - 1998 - 2010 - THI Effect and Lactation Curve
 </tbody>
 </table>
 </div>
+</div>
 <figcaption style="text-align: left;">
 Table D.65: Jersey: Milk Yield - 2011-2023 - GAMM model summary without random effect terms.
 </figcaption>
 <br>
 
 <div>
+<div class="table-content">
 <table>
 <thead>
 <tr>
@@ -622,6 +633,7 @@ Table D.65: Jersey: Milk Yield - 2011-2023 - GAMM model summary without random e
 </tr>
 </tbody>
 </table>
+</div>
 </div>
 <figcaption style="text-align: left;">
 Table D.66: Jersey: Milk Yield - 2011-2023 - Mixed Model Summary - Smooth Terms and Random Effects.

@@ -13,6 +13,7 @@ type: "docs"
 #### **Model Summary**
 
 <div id="table_1">
+<div class="table-content">
 <table>
   <thead>
     <tr>
@@ -346,12 +347,14 @@ type: "docs"
   </tbody>
 </table>
 </div>
+</div>
 <figcaption style="text-align: left;">
     Table D.1: Holstein: Milk Yield - 1985-2023 - GAMM model summary without random effect terms.
 </figcaption>
 <br>
 
 <div id="table_2">
+<div class="table-content">
 <table>
   <thead>
     <tr>
@@ -461,6 +464,7 @@ type: "docs"
   </tbody>
 </table>
 </div>
+</div>
 <figcaption style="text-align: left;">
     Table D.2: Holstein: Milk Yield - 1985-2023 - Mixed Model Summary - Smooth Terms and Random Effects.
 </figcaption>
@@ -538,6 +542,7 @@ class="figure-no-margin"
 ##### **Model Summary**
 
 <div id="table_3">
+<div class="table-content">
 <table>
   <thead>
     <tr>
@@ -780,12 +785,14 @@ class="figure-no-margin"
   </tbody>
 </table>
 </div>
+</div>
 <figcaption style="text-align: left;">
     Table D.3: Holstein: Milk Yield - 1985-2010 - GAMM model summary without random effect terms.
 </figcaption>
 <br>
 
 <div id="table_4">
+<div class="table-content">
 <table>
   <thead>
     <tr>
@@ -895,6 +902,7 @@ class="figure-no-margin"
   </tbody>
 </table>
 </div>
+</div>
 <figcaption style="text-align: left;">
     Table D.4: Holstein: Milk Yield - 1985-2010 - Mixed Model Summary - Smooth Terms and Random Effects.
 </figcaption>
@@ -970,6 +978,7 @@ class="figure-no-margin"
 ##### **Model Summary**
 
 <div id="table_5">
+<div class="table-content">
 <table>
   <thead>
     <tr>
@@ -1121,12 +1130,14 @@ class="figure-no-margin"
   </tbody>
 </table>
 </div>
+</div>
 <figcaption style="text-align: left;">
     Table D.5: Holstein: Milk Yield - 2011-2023 - GAMM model summary without random effect terms.
 </figcaption>
 <br>
 
 <div id="table_6">
+<div class="table-content">
 <table>
   <thead>
     <tr>
@@ -1235,6 +1246,7 @@ class="figure-no-margin"
     </tr>
   </tbody>
 </table>
+</div>
 </div>
 <figcaption style="text-align: left;">
     Table D.6: Holstein: Milk Yield - 2011-2023 - Mixed Model Summary - Smooth Terms and Random Effects.

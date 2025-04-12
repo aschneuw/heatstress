@@ -32,6 +32,7 @@ First, an overview of the estimated models is presented in Section [4.1](#sec_m
 Table [1.1](#table_milk_yield_subsample_stats_model_props) shows all single-breed models with the milk yield as dependent variable. \( t_s \) is set to 1’000’000 for all experiments. Only for the Jersey breed there are fewer samples available. The estimated degrees of freedom confirm that \( k \) is well-chosen for both, \( f(THI) \) and \( f(DIM) \).
 
 <div id="table_milk_yield_subsample_stats_model_props" style="overflow-x: auto;">
+
 <table>
   <thead>
     <tr>

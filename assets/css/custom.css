@@ -40,3 +40,9 @@ img[src$='#center'] {
 .download-button:hover {
   background-color: #005fa3;
 }
+
+.table-content {
+  padding: 0;
+  margin: 0;
+  overflow: auto;
+}

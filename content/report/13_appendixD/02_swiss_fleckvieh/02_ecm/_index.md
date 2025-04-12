@@ -13,6 +13,7 @@ type: "docs"
 #### **Model Summary**
 
 <div id="table_d_19">
+<div class="table-content">
 <table>
 <thead>
 <tr>
@@ -356,12 +357,14 @@ type: "docs"
 </tbody>
 </table>
 </div>
+</div>
 <figcaption style="text-align: left;">
 Table D.19: Swiss Fleckvieh: ECM Yield - 1984-2023 - GAMM model summary without random effect terms.
 </figcaption>
 <br>
 
 <div id="table_d_20">
+<div class="table-content">
 <table>
 <thead>
 <tr>
@@ -474,6 +477,7 @@ Table D.19: Swiss Fleckvieh: ECM Yield - 1984-2023 - GAMM model summary without 
 </tbody>
 </table>
 </div>
+</div>
 <figcaption style="text-align: left;">
 Table D.20: Swiss Fleckvieh: ECM Yield - 1984-2023 - Mixed Model Summary - Smooth Terms and Random Effects.
 </figcaption>
@@ -563,6 +567,7 @@ Figure D.20: Swiss Fleckvieh: ECM Yield - 1984 - 2023 - THI Effect and Lactation
 ##### **Model Summary**
 
 <div id="table_d_21">
+<div class="table-content">
 <table>
 <thead>
 <tr>
@@ -815,12 +820,14 @@ Figure D.20: Swiss Fleckvieh: ECM Yield - 1984 - 2023 - THI Effect and Lactation
 </tbody>
 </table>
 </div>
+</div>
 <figcaption style="text-align: left;">
 Table D.21: Swiss Fleckvieh: ECM Yield - 1984-2010 - GAMM model summary without random effect terms.
 </figcaption>
 <br>
 
 <div id="table_d_22">
+<div class="table-content">
 <table>
 <thead>
 <tr>
@@ -933,6 +940,7 @@ Table D.21: Swiss Fleckvieh: ECM Yield - 1984-2010 - GAMM model summary without 
 </tbody>
 </table>
 </div>
+</div>
 <figcaption style="text-align: left;">
 Table D.22: Swiss Fleckvieh: ECM Yield - 1984-2010 - Mixed Model Summary - Smooth Terms and Random Effects.
 </figcaption>
@@ -1014,6 +1022,7 @@ Figure D.22: Swiss Fleckvieh: ECM Yield - 1984 - 2010 - THI Effect and Lactation
 ##### **Model Summary**
 
 <div id="table_d_23">
+<div class="table-content">
 <table>
 <thead>
 <tr>
@@ -1168,12 +1177,14 @@ Figure D.22: Swiss Fleckvieh: ECM Yield - 1984 - 2010 - THI Effect and Lactation
 </tbody>
 </table>
 </div>
+</div>
 <figcaption style="text-align: left;">
 Table D.23: Swiss Fleckvieh: ECM Yield - 2011-2023 - GAMM model summary without random effect terms.
 </figcaption>
 <br>
 
 <div id="table_d_24">
+<div class="table-content">
 <table>
 <thead>
 <tr>
@@ -1285,6 +1296,7 @@ Table D.23: Swiss Fleckvieh: ECM Yield - 2011-2023 - GAMM model summary without 
 </tr>
 </tbody>
 </table>
+</div>
 </div>
 <figcaption style="text-align: left;">
 Table D.24: Swiss Fleckvieh: ECM Yield - 2011-2023 - Mixed Model Summary - Smooth Terms and Random Effects.

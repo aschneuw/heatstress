@@ -27,6 +27,7 @@ Generally, breeding associations collect monthly test-day milk samples on dairy 
 For each of the three associations, the milk sample data is provided in a slightly different raw tabular database format. We write custom parsers on a best effort basis to process the individual datasets and merge the data from the three different providers into a single dataset. Table [3.1](#table_k33_overview) summarizes a selection of available variables{{< cite "asr2024" >}}. Note that each farm identifier can be linked with the corresponding farm metadata. This allows us to determine the farm location at the ZIP code level. The ZIP code associated with each sample is important for the matching process with the weather data. A finer granularity at the exact postal address level would be technically feasible but is not applied for data protection and privacy reasons.
 
 <div id="table_k33_overview" class="table-with-caption">
+<div class="table-content">
 
 | **Milk Performance Variable**   | **Description / Unit / Type**                                         |
 |--------------------------------|------------------------------------------------------------------------|
@@ -53,6 +54,8 @@ For each of the three associations, the milk sample data is provided in a slight
 | sampleWeighingDate             | Sample date \( [ \text{date} ] \)                                     |
 | days_in_milk                   | sampleWeighingDate \( - \) calvingDate \( [ \text{days} ] \)          |
 | zip                             | ZIP matching the farm associated with farmIdLocationSample \( [ \text{categorical} ] \) |
+
+</div>
 <figcaption style="text-align: left;">
     Table 3.1: Subselection of {{< cite-start "asr2024" >}}&nbsp; <a href="https://asr-ch.ch/images/content/Download-Ordner/Datenschnittstelle/RindviehCH_Interface-D.pdf">RindviehCH Interface Tables B01 and K33</a> Variables. Milk, fat and protein yield are the three primary variables of interest in our work. We manually define <em>days_in_milk</em> as the difference between <em>sampleWeighingDate</em> and <em>calvingDate</em>, and <em>ecm_yield</em> as a combination of <em>milk</em>, <em>fat</em>, and <em>protein</em> with {{< cite-start "hall_invited_2023" >}}&nbsp;<em>(Equation 9)</em>.
 </figcaption>
@@ -63,6 +66,7 @@ For each of the three associations, the milk sample data is provided in a slight
 We clean the raw data with the following multi-stage data cleaning strategy: First, we apply an interquartile range filter to milk, fat, and protein per breed and year. A sample is removed from the dataset if one of the three variables is an outlier. An outlier is defined as the value that lies below the lower bound \( Q_1 - 1.5 \times \text{IQR} \) or above the upper bound \( Q_3 + 1.5 \times \text{IQR} \), where \( Q_1 \) is the first quartile, \( Q_3 \) is the third quartile, and IQR is the range between the first and third quartiles, calculated as \( \text{IQR} = Q_3 - Q_1 \). Second, only those samples are considered where milk, fat, and protein measurements are all simultaneously available. Third, any samples linked to research farms, educational farm facilities, breeding associations, or research institutions are excluded as non-representative. Fourth, as there are some samples from outside the country, only Swiss farms, identifiable by their ZIP codes, are included. Fifth, samples where *days_in_milk* exceed 600 days are discarded. Seventh, farms with less than 100 samples are excluded. Lastly, any animals contributing fewer than 5 samples are also eliminated.
 
 <div id="table_breed_codes" class="table-with-caption">
+<div class="table-content">
 
 | **Breed Code**   | **Section**          | **Mapped Code**   | **Breed Name**          |
 |-----------------|---------------------|------------------|-------------------------|
@@ -77,6 +81,7 @@ We clean the raw data with the following multi-stage data cleaning strategy: Fir
 | OB              | Original Braunvieh  | OB               | Original Braunvieh      |
 | JE              | Jersey              | JE               | Jersey                  |
 
+</div>
 <figcaption style="text-align: center;">
     Table 3.2: Breed codes and mapping according to <em>Swissherdbook</em>.
 </figcaption>
@@ -88,6 +93,7 @@ We clean the raw data with the following multi-stage data cleaning strategy: Fir
 In the refined dataset, the *animalBreedCode* variable encompasses 10 distinct breed codes. In accordance with the Swissherbook regulations {{< cite "swissherdbookregulations2022" >}}, certain breed codes correspond to identical breeds. Breeding objectives are determined at the breed level; thus, codes 60, 70, and SI are unified under the same breeding goals. The same applies for the Holstein codes RH, HO, and RF. A comprehensive overview is presented in Table [3.2](#table_breed_codes). This mapping is employed to streamline our dataset, enabling us to focus on 6 breeds in total: Holstein (HO), Jersey (JE), Brown Swiss (BS), Original Braunvieh (OB), Simmental (SI), and Swiss Fleckvieh (SF). Bloodline-specific breed information is available in the Swissherbook regulations.
 
 <div id="table_average_breed_performance_2023" class="table-with-caption">
+<div class="table-content">
 
 | **Symbol**  | **Breed**            | **Purpose**    | **Milk \( [ \text{kg/d} ] \)** | **Protein \( [ \text{\%} ] \)** | **Fat \( [ \text{\%} ] \)** | **ECM \( [ \text{kg/d} ] \)** |
 |------------|--------------------|--------------|----------------------------|-------------------------|--------------------|--------------------|
@@ -98,6 +104,7 @@ In the refined dataset, the *animalBreedCode* variable encompasses 10 distinct b
 | \( + \)           | **Original Braunvieh** | Milk/Meat    | 19.33 (±6.48)             | 3.42 (±0.42)           | 4.01 (±0.57)      | 20.95 (±6.77)      |
 | \( \square \)     | **Jersey**           | Milk         | 18.88 (±6.10)             | 3.97 (±0.51)           | 5.30 (±0.94)      | 24.17 (±7.15)      |
 
+</div>
 <figcaption style="text-align: center;">
     Table 3.3: Annual milk performance average values for all breeds in the year 2023.
 </figcaption>
@@ -107,6 +114,7 @@ Table [3.3](#table_average_breed_performance_2023) summarizes the national aver
 
 
 <div id="table_dataset_statistics" class="table-with-caption">
+<div class="table-content">
 
 | **Symbol**  | **Breed**            | **\# Samples**    | **\# Farms**    | **\# Animals**  | **Timespan** |
 |------------|--------------------|-----------------|---------------|---------------|------------|
@@ -117,6 +125,8 @@ Table [3.3](#table_average_breed_performance_2023) summarizes the national aver
 | \( + \)           | **Original Braunvieh** | 4'996'060       | 18'613        | 149'478       | 1982-2023  |
 | \( \square \)     | **Jersey**           | 734'685         | 4'302         | 23'675        | 1998-2023  |
 |                  | **Total**            | 130'179'064     | 46'975        | 4'201'494     | 1982-2023  |
+
+</div>
 <figcaption style="text-align: left;">
     Table 3.4: Dataset statistics: the cleaned dataset contains over 130 million samples from 4.2 million animals distributed on almost 47 thousand farms between 1982 and 2023.
 </figcaption>
@@ -433,6 +443,7 @@ Table [3.5](#table_gamm4_performance) illustrates that the estimation times ris
 The model used for this experiment does not correspond to a mature single-breed model and is designed primarily for performance assessment purposes. For example, modelling the DIM as a fixed effect instead as a smooth term, or interacting farms with the month of the year, are limitations. The main goal of this comparison is to emphasize the performance implications of varying factor levels. This analysis reveals the computational difficulties to be encountered as the number of samples and factor levels grow, particularly with larger and more representative data subsets or multi-breed models. Simple experiments with multiple breeds over a million of samples explode in execution time or fail with memory errors during a Cholesky decomposition step.
 
 <div id="table_gamm4_performance" class="table-with-caption">
+<div class="table-content">
 
 | **\# Samples** | **\# Cows** \( \alpha \) | **\# Farm \(\times\) Month** \( \phi \) | **Fitting Time \( [s] \)** |
 |----------------|--------------------------|-----------------------------------------|---------------------------|
@@ -441,6 +452,7 @@ The model used for this experiment does not correspond to a mature single-breed 
 | 426'397        | 26'201                  | 25'000                                  | 2'332                     |
 | 660'110        | 26'641                  | 39'223                                  | 5'447                     |
 
+</div>
 <figcaption style="text-align: left">
 Table 3.5: <em>gamm4</em> execution times with a growing number of samples and random effect factor levels.
 </figcaption>
@@ -467,12 +479,14 @@ Equation 3.4.3: Multi-Breed Model for MixedModels.jl Performance Assessment
 where \( n_B \) is the number of breeds and \( n_Y \) the number of years.
 
 <div id="table_mixedmodeljl_performance" class="table-with-caption">
+<div class="table-content">
 
 | **\# Samples** | **Breeds** | **\# Cows** | **\# Farm \( \times \) Month** | **Fitting Time \( [s] \)** |
 |----------------|------------|------------|--------------------------------|----------------------------|
 | 660'110        | JE         | 26'641     | 39'223                         | 580                        |
 | 7'381'552      | HO, JE, SF, SI, BS, OB | 1'833'470 | 106'642                  | 15'231                     |
 
+</div>
 <figcaption style="text-align: left;">
 Table&nbsp;3.6: <em>MixedModels.jl</em> execution times with a Jersey only model and a six-breed model. The Jersey model is fitted without the \( \text{THI}^2 \) term.
 </figcaption>
@@ -611,12 +625,14 @@ leads to a block diagonal matrix. *MixedModels.jl* supports different \( \mathbf
 To overcome the computational limitations presented in Section [3.4.4.1](#sec_gamm4b) of the data covariance matrix \( \mathbf{V} \) operations we implement a scalable Julia version with the latest high-performance sparse matrix library *SuiteSparseGraphBlas.jl* {{< cite "GraphBLAS7;graphblas_1000;graphblas_julia" >}} and *CHOLMOD* operations {{< cite "davis_row_2005;davis_modifying_1999;chen_algorithm_2008;davis_dynamic_2009" >}}. The operations are fast, but memory intensive. With sample sizes above 1'100'000-1'500'000, depending on the complexity of the random effect structures, we encounter the memory limitations of our computational resources during the Cholesky decomposition because the sparse matrix \( \mathbf{V} \) has billions of non-zero entries, which hinders us from estimating multi-breed models with meaningful sample sizes and remains an interesting area for future work.
 
 <div id="table_gamm_performance_datasets" class="table-with-caption">
+<div class="table-content">
 
 |  Dataset | Samples   | Breed | # Cows  | \# zip \( \times \) month | \# Farms | Total Factor Levels |
 |----------|----------|-------|---------|---------------------------|----------|---------------------|
 | 1        | 500,027  | JE    | 17,555  | 13,818                    | 2,966    | 34,339             |
 | 2        | 1,000,000| HO    | 50,111  | 7,666                     | 1,064    | 58,841             |
 
+</div>
 <figcaption style="text-align: left; font-style: italic;">
 Table&nbsp;3.5: Subsampled datasets for <em>gamm4</em>, <em>gamm4b</em> and <em>gammJ</em> performance comparison. Dataset 1 are randomly selected farms with the Jersey breed and dataset 2 are randomly selected farms with the Holstein breed.
 </figcaption>
@@ -627,12 +643,14 @@ Table&nbsp;3.5: Subsampled datasets for <em>gamm4</em>, <em>gamm4b</em> and <em>
 Finally, to compare the performance between *gamm4*, *gamm4b* and *gammJ* we use the following single-breed model given in Equation [3.2.2](#eq_single_breed_model) with two example datasets described in Table [3.5](#table_gamm_performance_datasets). The differences in the number of factor levels between the two datasets emphasize the structural distinctions between farms with the corresponding breeds. For example, farms with Holsteins have more cows and, therefore, more samples per animal than farms with Jerseys.
 
 <div id="table_gamm_performance_comparison" class="table-with-caption">
+<div class="table-content">
 
 | Dataset | gamm4   | gamm4b | gammJ |
 |---------|---------|--------|------|
 | 1       | 15'097  | 4'758  | 1'863|
 | 2       | Crash   | Crash  | 1'646|
 
+</div>
 <figcaption style="text-align: left; font-style: italic;">
 Table&nbsp;3.6: Comparison of <em>gamm4</em>, <em>gamm4b</em> and <em>gammJ</em> estimation times in seconds with datasets listed in Table&nbsp;3.5.
 </figcaption>

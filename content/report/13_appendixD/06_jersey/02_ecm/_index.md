@@ -12,6 +12,7 @@ type: "docs"
 #### **Model Summary**
 
 <div id="tab_67">
+<div class="table-content">
 <table>
 <thead>
 <tr>
@@ -63,12 +64,14 @@ type: "docs"
 </tbody>
 </table>
 </div>
+</div>
 <figcaption style="text-align: left;">
     Table D.67: Jersey: ECM Yield - 1998-2023 - GAMM model summary without random effect terms.
 </figcaption>
 <br>
 
 <div id="tab_68">
+<div class="table-content">
 <table>
 <thead>
 <tr>
@@ -100,6 +103,7 @@ type: "docs"
 <tr><td>Residual</td><td>3.85243</td><td></td><td></td><td></td></tr>
 </tbody>
 </table>
+</div>
 </div>
 <figcaption style="text-align: left;">
     Table D.68: Jersey: ECM Yield - 1998-2023 - Mixed Model Summary - Smooth Terms and Random Effects.
@@ -166,6 +170,7 @@ type: "docs"
 ##### **Model Summary**
 
 <div id="tab_69">
+<div class="table-content">
 <table>
 <thead>
 <tr>
@@ -204,12 +209,14 @@ type: "docs"
 </tbody>
 </table>
 </div>
+</div>
 <figcaption style="text-align: left;">
     Table D.69: Jersey: ECM Yield - 1998-2010 - GAMM model summary without random effect terms.
 </figcaption>
 <br>
 
 <div id="tab_70">
+<div class="table-content">
 <table>
 <thead>
 <tr>
@@ -241,6 +248,7 @@ type: "docs"
 <tr><td>Residual</td><td>3.49403</td><td></td><td></td><td></td></tr>
 </tbody>
 </table>
+</div>
 </div>
 <figcaption style="text-align: left;">
     Table D.70: Jersey: ECM Yield - 1998-2010 - Mixed Model Summary - Smooth Terms and Random Effects.
@@ -305,6 +313,7 @@ type: "docs"
 ##### **Model Summary**
 
 <div id="tab_71">
+<div class="table-content">
 <table>
 <thead>
 <tr>
@@ -343,12 +352,14 @@ type: "docs"
 </tbody>
 </table>
 </div>
+</div>
 <figcaption style="text-align: left;">
     Table D.71: Jersey: ECM Yield - 2011-2023 - GAMM model summary without random effect terms.
 </figcaption>
 <br>
 
 <div id="tab_72">
+<div class="table-content">
 <table>
 <thead>
 <tr>
@@ -380,6 +391,7 @@ type: "docs"
 <tr><td>Residual</td><td>3.91111</td><td></td><td></td><td></td></tr>
 </tbody>
 </table>
+</div>
 </div>
 <figcaption style="text-align: left;">
     Table D.72: Jersey: ECM Yield - 2011-2023 - Mixed Model Summary - Smooth Terms and Random Effects.

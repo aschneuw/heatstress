@@ -12,6 +12,7 @@ type: "docs"
 #### **Model Summary**
 
 <div id="table_D.25">
+<div class="table-content">
 <table>
 <thead>
 <tr>
@@ -362,12 +363,14 @@ type: "docs"
 </tbody>
 </table>
 </div>
+</div>
 <figcaption style="text-align: left;">
     Table 25: Brown Swiss: Milk Yield - 1982-2023 - GAMM model summary without random effect terms.
 </figcaption>
 <br>
 
 <div id="table_D.26">
+<div class="table-content">
 <table>
 <thead>
 <tr>
@@ -480,7 +483,7 @@ type: "docs"
 </tbody>
 </table>
 </div>
-
+</div>
 <figcaption style="text-align: left;">
     Table 26: Brown Swiss: Milk Yield - 1982-2023 - Mixed Model Summary - Smooth Terms and Random Effects.
 </figcaption>
@@ -572,6 +575,7 @@ type: "docs"
 ##### **Model Summary**
 
 <div id="table_D.27">
+<div class="table-content">
 <table>
 <thead>
 <tr>
@@ -831,12 +835,14 @@ type: "docs"
 </tbody>
 </table>
 </div>
+</div>
 <figcaption style="text-align: left;">
     Table 27: Brown Swiss: Milk Yield - 1982-2010 - GAMM model summary without random effect terms.
 </figcaption>
 <br>
 
 <div id="table_D.28">
+<div class="table-content">
 <table>
 <thead>
 <tr>
@@ -949,6 +955,7 @@ type: "docs"
 </tbody>
 </table>
 </div>
+</div>
 <figcaption style="text-align: left;">
     Table 28: Brown Swiss: Milk Yield - 1982-2010 - Mixed Model Summary - Smooth Terms and Random Effects.
 </figcaption>
@@ -1038,6 +1045,7 @@ type: "docs"
 ##### **Model Summary**
 
 <div id="table_D.29">
+<div class="table-content">
 <table>
 <thead>
 <tr>
@@ -1185,12 +1193,14 @@ type: "docs"
 </tbody>
 </table>
 </div>
+</div>
 <figcaption style="text-align: left;">
     Table 29: Brown Swiss: Milk Yield - 2011-2023 - GAMM model summary without random effect terms. 
 </figcaption>
 <br>
 
 <div id="table_D.30">
+<div class="table-content">
 <table>
 <thead>
 <tr>
@@ -1302,6 +1312,7 @@ type: "docs"
 </tr>
 </tbody>
 </table>
+</div>
 </div>
 <figcaption style="text-align: left;">
     Table 30: Brown Swiss: Milk Yield - 2011-2023 - Mixed Model Summary - Smooth Terms and Random Effects.

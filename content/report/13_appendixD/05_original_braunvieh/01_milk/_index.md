@@ -13,6 +13,7 @@ type: "docs"
 #### **Model Summary**
 
 <div>
+<div class="table-content">
 <!-- TABLE CONTENT START -->
 <table>
 <thead>
@@ -372,12 +373,14 @@ type: "docs"
 </table>
 <!-- TABLE CONTENT END -->
 </div>
+</div>
 <figcaption style="text-align: left;">
     Table D.49: Original Braunvieh: Milk Yield - 1982-2023 - GAMM model summary without random effect terms.
 </figcaption>
 <br>
 
 <div>
+<div class="table-content">
 <!-- TABLE CONTENT START -->
 <table>
 <thead>
@@ -492,6 +495,7 @@ type: "docs"
 </table>
 <!-- TABLE CONTENT END -->
 </div>
+</div>
 <figcaption style="text-align: left;">
     Table D.50: Original Braunvieh: Milk Yield - 1982-2023 - Mixed Model Summary - Smooth Terms and Random Effects.
 </figcaption>
@@ -569,6 +573,7 @@ type: "docs"
 ##### **Model Summary**
 
 <div>
+<div class="table-content">
 <!-- TABLE CONTENT START -->
 <table>
 <thead>
@@ -837,12 +842,14 @@ type: "docs"
 </table>
 <!-- TABLE CONTENT END -->
 </div>
+</div>
 <figcaption style="text-align: left;">
     Table D.51: Original Braunvieh: Milk Yield - 1982-2010 - GAMM model summary without random effect terms.
 </figcaption>
 <br>
 
 <div>
+<div class="table-content">
 <!-- TABLE CONTENT START -->
 <table>
 <thead>
@@ -957,6 +964,7 @@ type: "docs"
 </table>
 <!-- TABLE CONTENT END -->
 </div>
+</div>
 <figcaption style="text-align: left;">
     Table D.52: Original Braunvieh: Milk Yield - 1982-2010 - Mixed Model Summary - Smooth Terms and Random Effects.
 </figcaption>
@@ -1032,6 +1040,7 @@ type: "docs"
 ##### **Model Summary**
 
 <div>
+<div class="table-content">
 <!-- TABLE CONTENT START -->
 <table>
 <thead>
@@ -1188,12 +1197,14 @@ type: "docs"
 </table>
 <!-- TABLE CONTENT END -->
 </div>
+</div>
 <figcaption style="text-align: left;">
     Table D.53: Original Braunvieh: Milk Yield - 2011-2023 - GAMM model summary without random effect terms.
 </figcaption>
 <br>
 
 <div>
+<div class="table-content">
 <!-- TABLE CONTENT START -->
 <table>
 <thead>
@@ -1307,6 +1318,7 @@ type: "docs"
 </tbody>
 </table>
 <!-- TABLE CONTENT END -->
+</div>
 </div>
 <figcaption style="text-align: left;">
     Table D.54: Original Braunvieh: Milk Yield - 2011-2023 - Mixed Model Summary - Smooth Terms and Random Effects.

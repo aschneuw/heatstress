@@ -12,6 +12,7 @@ type: "docs"
 #### **Model Summary**
 
 <div>
+<div class="table-content">
 <table>
 <thead>
 <tr>
@@ -362,12 +363,14 @@ type: "docs"
 </tbody>
 </table>
 </div>
+</div>
 <figcaption style="text-align: left;">
     Table D.55: Original Braunvieh: ECM Yield - 1982-2023 - GAMM model summary without random effect terms.
 </figcaption>
 <br>
 
 <div>
+<div class="table-content">
 <table>
 <thead>
 <tr>
@@ -480,6 +483,7 @@ type: "docs"
 </tbody>
 </table>
 </div>
+</div>
 <figcaption style="text-align: left;">
     Table D.56: Original Braunvieh: ECM Yield - 1982-2023 - Mixed Model Summary - Smooth Terms and Random Effects.
 </figcaption>
@@ -557,6 +561,7 @@ type: "docs"
 ##### **Model Summary**
 
 <div>
+<div class="table-content">
 <table>
 <thead>
 <tr>
@@ -816,12 +821,14 @@ type: "docs"
 </tbody>
 </table>
 </div>
+</div>
 <figcaption style="text-align: left;">
     Table D.57: Original Braunvieh: ECM Yield - 1982-2010 - GAMM model summary without random effect terms.
 </figcaption>
 <br>
 
 <div>
+<div class="table-content">
 <table>
 <thead>
 <tr>
@@ -934,6 +941,7 @@ type: "docs"
 </tbody>
 </table>
 </div>
+</div>
 <figcaption style="text-align: left;">
     Table D.58: Original Braunvieh: ECM Yield - 1982-2010 - Mixed Model Summary - Smooth Terms and Random Effects.
 </figcaption>
@@ -1009,6 +1017,7 @@ type: "docs"
 ##### **Model Summary**
 
 <div>
+<div class="table-content">
 <table>
 <thead>
 <tr>
@@ -1156,12 +1165,14 @@ type: "docs"
 </tbody>
 </table>
 </div>
+</div>
 <figcaption style="text-align: left;">
     Table D.59: Original Braunvieh: ECM Yield - 2011-2023 - GAMM model summary without random effect terms.
 </figcaption>
 <br>
 
 <div>
+<div class="table-content">
 <table>
 <thead>
 <tr>
@@ -1273,6 +1284,7 @@ type: "docs"
 </tr>
 </tbody>
 </table>
+</div>
 </div>
 <figcaption style="text-align: left;">
     Table D.60: Original Braunvieh: ECM Yield - 2011-2023 - Mixed Model Summary - Smooth Terms and Random Effects.

@@ -13,6 +13,7 @@ type: "docs"
 #### **Model Summary**
 
 <div>
+<div class="table-content">
 <table>
 <tr>
 <td>A. parametric coefficients</td><td>Estimate</td><td>Std. Error</td><td>t-value</td><td>p-value</td>
@@ -157,12 +158,14 @@ type: "docs"
 </tr>
 </table>
 </div>
+</div>
 <figcaption style="text-align: left;">
 Table D.43: Simmental: ECM Yield - 1984-2023 - GAMM model summary without random effect terms.
 </figcaption>
 <br>
 
 <div>
+<div class="table-content">
 <table>
 <tr>
 <td>Smooth Term Fixed Effect</td><td>Est.</td><td>SE</td><td>z</td><td>p</td>
@@ -207,6 +210,7 @@ Table D.43: Simmental: ECM Yield - 1984-2023 - GAMM model summary without random
 <td>Residual</td><td>3.0088</td><td></td><td></td><td></td>
 </tr>
 </table>
+</div>
 </div>
 <figcaption style="text-align: left;">
 Table D.44: Simmental: ECM Yield - 1984-2023 - Mixed Model Summary - Smooth Terms and Random Effects.
@@ -280,6 +284,7 @@ Figure D.44: Simmental: ECM Yield - 1984 - 2023 - THI Effect and Lactation Curve
 ##### **Model Summary**
 
 <div>
+<div class="table-content">
 <table>
 <tr>
 <td>A. parametric coefficients</td><td>Estimate</td><td>Std. Error</td><td>t-value</td><td>p-value</td>
@@ -385,12 +390,14 @@ Figure D.44: Simmental: ECM Yield - 1984 - 2023 - THI Effect and Lactation Curve
 </tr>
 </table>
 </div>
+</div>
 <figcaption style="text-align: left;">
 Table D.45: Simmental: ECM Yield - 1984-2010 - GAMM model summary without random effect terms.
 </figcaption>
 <br>
 
 <div>
+<div class="table-content">
 <table>
 <tr>
 <td>Smooth Term Fixed Effect</td><td>Est.</td><td>SE</td><td>z</td><td>p</td>
@@ -435,6 +442,7 @@ Table D.45: Simmental: ECM Yield - 1984-2010 - GAMM model summary without random
 <td>Residual</td><td>2.8692</td><td></td><td></td><td></td>
 </tr>
 </table>
+</div>
 </div>
 <figcaption style="text-align: left;">
 Table D.46: Simmental: ECM Yield - 1984-2010 - Mixed Model Summary - Smooth Terms and Random Effects.
@@ -506,6 +514,7 @@ Figure D.46: Simmental: ECM Yield - 1984 - 2010 - THI Effect and Lactation Curve
 ##### **Model Summary**
 
 <div>
+<div class="table-content">
 <table>
 <tr>
 <td>A. parametric coefficients</td><td>Estimate</td><td>Std. Error</td><td>t-value</td><td>p-value</td>
@@ -569,12 +578,14 @@ Figure D.46: Simmental: ECM Yield - 1984 - 2010 - THI Effect and Lactation Curve
 </tr>
 </table>
 </div>
+</div>
 <figcaption style="text-align: left;">
 Table D.47: Simmental: ECM Yield - 2011-2023 - GAMM model summary without random effect terms.
 </figcaption>
 <br>
 
 <div>
+<div class="table-content">
 <table>
 <tr>
 <td>Smooth Term Fixed Effect</td><td>Est.</td><td>SE</td><td>z</td><td>p</td>
@@ -619,6 +630,7 @@ Table D.47: Simmental: ECM Yield - 2011-2023 - GAMM model summary without random
 <td>Residual</td><td>3.3644</td><td></td><td></td><td></td>
 </tr>
 </table>
+</div>
 </div>
 <figcaption style="text-align: left;">
 Table D.48: Simmental: ECM Yield - 2011-2023 - Mixed Model Summary - Smooth Terms and Random Effects.

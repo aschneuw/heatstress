@@ -12,6 +12,7 @@ type: "docs"
 #### **Model Summary**
 
 <div id="tbl37">
+<div class="table-content">
 <table>
 <thead>
 <tr>
@@ -349,12 +350,14 @@ type: "docs"
 </tbody>
 </table>
 </div>
+</div>
 <figcaption style="text-align: left;">
     Table D.37: Simmental: Milk Yield - 1984-2023 - GAMM model summary without random effect terms.
 </figcaption>
 <br>
 
 <div id="tbl38">
+<div class="table-content">
 <table>
 <thead>
 <tr>
@@ -461,6 +464,7 @@ type: "docs"
 </tbody>
 </table>
 </div>
+</div>
 <figcaption style="text-align: left;">
     Table D.38: Simmental: Milk Yield - 1984-2023 - Mixed Model Summary - Smooth Terms and Random Effects.
 </figcaption>
@@ -538,6 +542,7 @@ class="figure-no-margin"
 ##### **Model Summary**
 
 <div id="tbl39">
+<div class="table-content">
 <table>
 <thead>
 <tr>
@@ -784,12 +789,14 @@ class="figure-no-margin"
 </tbody>
 </table>
 </div>
+</div>
 <figcaption style="text-align: left;">
     Table D.39: Simmental: Milk Yield - 1984-2010 - GAMM model summary without random effect terms.
 </figcaption>
 <br>
 
 <div id="tbl40">
+<div class="table-content">
 <table>
 <thead>
 <tr>
@@ -896,6 +903,7 @@ class="figure-no-margin"
 </tbody>
 </table>
 </div>
+</div>
 <figcaption style="text-align: left;">
     Table D.40: Simmental: Milk Yield - 1984-2010 - Mixed Model Summary - Smooth Terms and Random Effects.
 </figcaption>
@@ -971,6 +979,7 @@ class="figure-no-margin"
 ##### **Model Summary**
 
 <div id="tbl41">
+<div class="table-content">
 <table>
 <thead>
 <tr>
@@ -1119,12 +1128,14 @@ class="figure-no-margin"
 </tbody>
 </table>
 </div>
+</div>
 <figcaption style="text-align: left;">
     Table D.41: Simmental: Milk Yield - 2011-2023 - GAMM model summary without random effect terms.
 </figcaption>
 <br>
 
 <div id="tbl42">
+<div class="table-content">
 <table>
 <thead>
 <tr>
@@ -1230,6 +1241,7 @@ class="figure-no-margin"
 </tr>
 </tbody>
 </table>
+</div>
 </div>
 <figcaption style="text-align: left;">
     Table D.42: Simmental: Milk Yield - 2011-2023 - Mixed Model Summary - Smooth Terms and Random Effects.

@@ -12,6 +12,7 @@ type: "docs"
 #### **Model Summary**
 
 <div id="table-d-13">
+<div class="table-content">
 <table>
 <thead>
 <tr>
@@ -355,12 +356,14 @@ type: "docs"
 </tbody>
 </table>
 </div>
+</div>
 <figcaption style="text-align: left;">
 Table D.13: Swiss Fleckvieh: Milk Yield - 1984-2023 - GAMM model summary without random effect terms.
 </figcaption>
 <br>
 
 <div id="table-d-14">
+<div class="table-content">
 <table>
 <thead>
 <tr>
@@ -473,6 +476,7 @@ Table D.13: Swiss Fleckvieh: Milk Yield - 1984-2023 - GAMM model summary without
 </tbody>
 </table>
 </div>
+</div>
 <figcaption style="text-align: left;">
 Table D.14: Swiss Fleckvieh: Milk Yield - 1984-2023 - Mixed Model Summary - Smooth Terms and Random Effects.
 </figcaption>
@@ -555,6 +559,7 @@ Figure D.14: Swiss Fleckvieh: Milk Yield - 1984 - 2023 - THI Effect and Lactatio
 ##### **Model Summary**
 
 <div id="table-d-15">
+<div class="table-content">
 <table>
 <thead>
 <tr>
@@ -807,12 +812,14 @@ Figure D.14: Swiss Fleckvieh: Milk Yield - 1984 - 2023 - THI Effect and Lactatio
 </tbody>
 </table>
 </div>
+</div>
 <figcaption style="text-align: left;">
 Table D.15: Swiss Fleckvieh: Milk Yield - 1984-2010 - GAMM model summary without random effect terms.
 </figcaption>
 <br>
 
 <div id="table-d-16">
+<div class="table-content">
 <table>
 <thead>
 <tr>
@@ -925,6 +932,7 @@ Table D.15: Swiss Fleckvieh: Milk Yield - 1984-2010 - GAMM model summary without
 </tbody>
 </table>
 </div>
+</div>
 <figcaption style="text-align: left;">
 Table D.16: Swiss Fleckvieh: Milk Yield - 1984-2010 - Mixed Model Summary - Smooth Terms and Random Effects.
 </figcaption>
@@ -1005,6 +1013,7 @@ Figure D.16: Swiss Fleckvieh: Milk Yield - 1984 - 2010 - THI Effect and Lactatio
 ##### **Model Summary**
 
 <div id="table-d-17">
+<div class="table-content">
 <table>
 <thead>
 <tr>
@@ -1159,12 +1168,14 @@ Figure D.16: Swiss Fleckvieh: Milk Yield - 1984 - 2010 - THI Effect and Lactatio
 </tbody>
 </table>
 </div>
+</div>
 <figcaption style="text-align: left;">
 Table D.17: Swiss Fleckvieh: Milk Yield - 2011-2023 - GAMM model summary without random effect terms.
 </figcaption>
 <br>
 
 <div id="table-d-18">
+<div class="table-content">
 <table>
 <thead>
 <tr>
@@ -1276,6 +1287,7 @@ Table D.17: Swiss Fleckvieh: Milk Yield - 2011-2023 - GAMM model summary without
 </tr>
 </tbody>
 </table>
+</div>
 </div>
 <figcaption style="text-align: left;">
 Table D.18: Swiss Fleckvieh: Milk Yield - 2011-2023 - Mixed Model Summary - Smooth Terms and Random Effects.

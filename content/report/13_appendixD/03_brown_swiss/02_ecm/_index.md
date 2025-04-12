@@ -13,7 +13,8 @@ type: "docs"
 
 #### **Model Summary**
 
-<div id="D.32">
+<div id="D.32">v
+<div class="table-content">
 <table>
   <tr>
     <th>A. parametric coefficients</th>
@@ -356,12 +357,14 @@ type: "docs"
   </tr>
 </table>
 </div>
+</div>
 <figcaption style="text-align: left;">
     Table D.32: Brown Swiss: ECM Yield - 1982-2023 - GAMM model summary without random effect terms.
 </figcaption>
 <br>
 
 <div id="D.33">
+<div class="table-content">
 <table>
   <tr>
     <th>Smooth Term Fixed Effect</th>
@@ -459,6 +462,7 @@ type: "docs"
   </tr>
 </table>
 </div>
+</div>
 <figcaption style="text-align: left;">
     Table D.33: Brown Swiss: ECM Yield - 1982-2023 - Mixed Model Summary - Smooth Terms and Random Effects.
 </figcaption>
@@ -530,6 +534,7 @@ type: "docs"
 ##### **Model Summary**
 
 <div id="D.34">
+<div class="table-content">
 <table>
   <tr>
     <th>A. parametric coefficients</th>
@@ -781,6 +786,7 @@ type: "docs"
   </tr>
 </table>
 </div>
+</div>
 <figcaption style="text-align: left;">
     Table D.34: Brown Swiss: ECM Yield - 1982-2010 - GAMM model summary without random effect terms.
 </figcaption>
@@ -850,6 +856,7 @@ type: "docs"
 ##### **Model Summary**
 
 <div id="D.36">
+<div class="table-content">
 <table>
   <tr>
     <th>A. parametric coefficients</th>
@@ -989,12 +996,14 @@ type: "docs"
   </tr>
 </table>
 </div>
+</div>
 <figcaption style="text-align: left;">
     Table D.36: Brown Swiss: ECM Yield - 2011-2023 - GAMM model summary without random effect terms.
 </figcaption>
 <br>
 
 <div id="D.37">
+<div class="table-content">
 <table>
   <tr>
     <th>Smooth Term Fixed Effect</th>
@@ -1091,6 +1100,7 @@ type: "docs"
     <td></td>
   </tr>
 </table>
+</div>
 </div>
 <figcaption style="text-align: left;">
     Table D.37: Brown Swiss: ECM Yield - 2011-2023 - Mixed Model Summary - Smooth Terms and Random Effects.

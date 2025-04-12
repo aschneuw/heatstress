@@ -50,6 +50,7 @@ Thermal sweating is a common response to heat stress. It plays a role in evapora
 To manage heat stress, dairy farmers employ protective measures, breeding strategies, and dietary adjustments. Quantifying the direct impact of environmental conditions on milk production is complex due to intricate interdependencies such as farm management. Nonetheless, research consistently shows a negative relationship between heat stress and milk output, including volume, fat, and protein content. Table [2.1](#table:heat_stress_expected_effects) lists the expected effects on selected dairy performance metrics for lactating dairy cows.
 
 <div id="table:heat_stress_expected_effects" class="table-with-caption">
+<div class="table-content">
 
 | **Variable**      | **Effect**                                                                              | **References**                                                                 |
 |------------------|--------------------------------------------------------------------------------------|------------------------------------------------------------------------------|
@@ -62,6 +63,7 @@ To manage heat stress, dairy farmers employ protective measures, breeding strate
 | Lactose        | no effect\(^*\) <br>Increase\(^\dag\)                                                 | {{< cite-start "kadzere_heat_2002" >}}\(^*\)<br>{{< cite-start "moore_how_2023" >}}\(^\dag\) |
 | Citrate        | Increase                                                                              | {{< cite-start "tian_integrated_2016" >}}                                         |
 | Aceton         | Increase                                                                              | {{< cite-start "tian_integrated_2016" >}}                                         |
+</div>
 <figcaption style="text-align: left; font-style: italic;">
     Table 2.1: Expected impact of heat stress on dairy performance: Milk, fat, and protein are the primary variables of interest for our study. Somatic cell count (SCC), milk urea nitrogen (MUN), \(\beta\)-hydroxybutyrate (BHB), lactose, citrate, and aceton are provided for complementary purposes.
 </figcaption>
@@ -103,6 +105,7 @@ The preceding Section [2.1](#sec_animal_physiology) discusses the manner in whi
 
 
 <div id="table:breed_study_comparison" class="table-with-caption">
+<div class="table-content">
 
 | **Study** | **Breeds** | **Records** | **Farms** | **Cows** | **Time** | **Location** |
 |-----------|-----------|------------|----------|---------|---------|-------------|
@@ -110,6 +113,7 @@ The preceding Section [2.1](#sec_animal_physiology) discusses the manner in whi
 | {{< cite-start "gantner_differences_2017" >}} | Holstein<br>Simmental | 1,070,554<br>1,300,683 | 5,679<br>8,827 | 70,135<br>86,013 | 2005-2012 | Croatia |
 | {{< cite-start "ahmed_temperature_2022" >}} | SE Holstein<br>SE Red<br>SH/SRB<br>Other | 2,893,367<br>1,279,758<br>417,312<br>973,729 | 1,435 | ? | 2016-2019 | Sweden |
 | **Our work (2024)** | Holstein<br>Brown Swiss<br><span>{{< nobreak "Original Braunvieh" >}}</span><br>Simmental<br>Swiss Fleckvieh<br>Jersey | 27,536,089<br>56,695,597<br>4,996,060<br>8,731,876<br>31,484,784<br>734,685 | 24,963<br>26,585<br>18,613<br>19,411<br>27,392<br>4,302 | 971,198<br>1,719,156<br>149,478<br>299,698<br>1,038,291<br>23,675 | 1985-2023<br>1982-2023<br><span style="white-space: nowrap;">1982-2023</span><br>{{< nobreak "1984-2023" >}}<br>1984-2023<br>1998-2023 | Switzerland |
+</div>
 <figcaption style="text-align: left; font-style: italic;">
     Table 2.2: Comparison of studies analyzing heat stress across breeds with production farm data.
 </figcaption>
@@ -209,6 +213,7 @@ where:
 Our study spans from 1982 to 2023. Switzerland's dairy industry is a structured and regulated market, currently the most significant sector of Swiss agriculture. This section focuses on policy interventions affecting dairy cow husbandry and their implications for milk production. The policy interventions are summarized in Table [2.3](#table_policies).
 
 <div id="table_policies" class="table-with-caption">
+<div class="table-content">
 
 | **Policy**                 | **Description**                          | **Enactment** | **Expiration** |
 |----------------------------|------------------------------------------|--------------|--------------|
@@ -221,6 +226,7 @@ Our study spans from 1982 to 2023. Switzerland's dairy industry is a structured 
 | Pasture payment            | Ample outdoor access                     | 2023         | —            |
 | Cow longevity              | Optimize longevity                       | 2024         | —            |
 
+</div>
 <figcaption style="text-align: left; font-style: italic;">
     Table 2.3: Policies influencing Swiss milk production.
 </figcaption>
