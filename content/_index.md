@@ -33,7 +33,7 @@ sections:
         #### 🔗 Citation
         <style>code {display: block; width:100%; font-size: 0.8rem !important;} #citation-section {padding: 0;} #citation-section > .flex {display: block;} </style>
         ```
-        @mastersthesis{schneuwly2025,
+        @mastersthesis{schneuwly2024,
           author      = {Schneuwly, Arno},
           title       = {Modelling the Effect of Heat Stress on the Performance of Swiss Dairy Cows - A Big Data Statistical Analysis},
           date        = {2024-10-16},
